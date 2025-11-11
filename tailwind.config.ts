@@ -57,6 +57,14 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        trust: "hsl(203, 62%, 28%)",
+        growth: "hsl(145, 63%, 42%)",
+        mint: "hsl(152, 65%, 76%)",
+      },
+      backgroundImage: {
+        'gradient-trust': 'linear-gradient(135deg, hsl(203, 62%, 28%) 0%, hsl(145, 63%, 42%) 50%, hsl(152, 65%, 76%) 100%)',
+        'gradient-card': 'linear-gradient(135deg, hsl(203, 62%, 32%) 0%, hsl(203, 62%, 24%) 100%)',
+        'gradient-success': 'linear-gradient(135deg, hsl(145, 63%, 42%) 0%, hsl(145, 63%, 52%) 100%)',
       },
       borderRadius: {
         lg: "var(--radius)",
